@@ -184,6 +184,16 @@ header .navbar ul li a:hover {
   header .navbar.nav-toggle {
     right: 0;
   }
+  .home .image img {
+  padding-top: 8rem;
+  width: 80%;
+  height: 80%;
+  margin-top: 10rem;
+  margin-left: 6rem;
+  border-radius: 2%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
 }
 /* hamburger icon ends */
 
@@ -938,6 +948,13 @@ body {
   .footer .box-container {
     flex-direction: column;
     text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .home .image img {
+    margin: 2rem auto 0 auto;
+    width: 90%;
+    height: auto;
   }
 }
 
